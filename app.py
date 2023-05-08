@@ -32,7 +32,7 @@ while True:
     elif opcao == 'pedra' and objeto == 'papel':
         perdeu()
     elif opcao == 'papel' and objeto == 'pedra':
-        perdeu()
+        venceu()
     elif opcao == 'papel' and objeto == 'tesoura':
         perdeu()
     elif opcao == 'tesoura' and objeto == 'pedra':
